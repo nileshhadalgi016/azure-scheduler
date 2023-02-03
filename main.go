@@ -24,7 +24,7 @@ func main() {
 		return
 	}
 	if *vmName == "" {
-		fmt.Println("You must supply VM name  (-vm <vmName>")
+		fmt.Println("You must supply VM's name  (-vm <vmName>")
 		return
 	}
 	if *resourceGroupName == "" {
